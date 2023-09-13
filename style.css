@@ -1,0 +1,149 @@
+.navbar {
+  width: 80vw;
+  background-image: url("https://nack.life/cdn/shop/files/Yoga_Day_Journal_Desktop_1280x.jpg?v=1689658304");
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.navbar h1 {
+  padding-top: 10rem;
+}
+
+.navbar button {
+  margin-bottom: 10rem;
+  background-color: black;
+  border: none;
+  padding: 1rem 3rem;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar button:hover {
+  cursor: pointer;
+  color: #face93;
+}
+.main {
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  gap: 5vw;
+  margin-bottom: 3rem;
+}
+
+.text_part {
+  width: 50vw;
+}
+
+.text_part h4 {
+  margin-top: 13rem;
+}
+
+.text_part p {
+  line-height: 2rem;
+}
+
+.text_part button {
+  padding: 1rem 2.5rem;
+  font-weight: bold;
+  background-color: #face93;
+  border: none;
+}
+.text_part button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: #face93;
+}
+
+.img_part {
+  width: 50vw;
+}
+
+.img_part img {
+  width: 35vw;
+  height: 45rem;
+}
+
+@media only screen and (max-width: 860px) {
+  .main {
+    display: block;
+    margin: auto;
+    margin-left: 5vw;
+  }
+
+  .text_part {
+    width: 90vw;
+    margin-bottom: 1rem;
+  }
+
+  .img_part {
+    width: 90vw;
+    margin-bottom: 1rem;
+  }
+
+  .img_part img {
+    width: 90vw;
+    height: 40rem;
+  }
+
+  .navbar {
+    width: 100vw;
+  }
+}
+
+.pursuit {
+  width: 70vw;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.pursuit p {
+  width: 40vw;
+  line-height: 2rem;
+}
+
+.pursuit a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.pursuit a:hover {
+  color: #face93;
+}
+
+.journal {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  gap: 1vw;
+}
+
+.journal_heading {
+  text-align: center;
+}
+
+.journal_part img {
+  width: 30vw;
+  height: 15rem;
+}
+
+.journal_part p {
+  margin-top: 2rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .journal {
+    width: 90vw;
+    display: block;
+  }
+  .journal_part img {
+    width: 90vw;
+  }
+  .pursuit p {
+    width: 70vw;
+  }
+}
